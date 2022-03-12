@@ -1919,7 +1919,7 @@ address {
   margin-bottom: 2.5rem;
 }
 
-.links-page__item {    box-shadow: 0 0 50px rgb(76 94 255 / 70%);
+.links-page__item {    
   background: -o-linear-gradient(333.12deg, rgba(255, 255, 255, 0.8) 18.01%, rgba(255, 255, 255, 0.2) 100%);
   background: linear-gradient(116.88deg, rgba(255, 255, 255, 0.8) 18.01%, rgba(255, 255, 255, 0.2) 100%);
   -webkit-box-shadow: 0px 5px 30px rgba(19, 18, 65, 0.15);
@@ -1942,6 +1942,7 @@ address {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+	box-shadow: 0 0 50px rgb(76 94 255 / 70%);
 }
 
 .links-page__item:nth-child(1)::after {
